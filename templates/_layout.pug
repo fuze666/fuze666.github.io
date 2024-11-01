@@ -1,6 +1,6 @@
-block append variables
-  - const title = ""
-  - const description = ""
+block variables
+  - let title = ""
+  - let description = ""
 
 doctype html
 html(lang="ja")
@@ -21,8 +21,8 @@ html(lang="ja")
         #title h1 #{title}
         nav#categoris
           ul
-          li: a(href="./index.html") ホーム
-          li: a(href="./games/games.html")
+          li: a(href="/index.html") ホーム
+          li: a(href="/games/games.html") ゲーム
       #description #{description}
     block main 
     #footer 

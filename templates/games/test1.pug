@@ -1,0 +1,9 @@
+extends ../_layout.pug
+
+block append variables 
+  - title = "test1"
+  - description = "this is test1"
+  - const hoge = "hoge"
+block main
+  p #{hoge}
+  
