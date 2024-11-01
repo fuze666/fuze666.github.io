@@ -3,6 +3,6 @@
     "pug": "^3.0.3"
   },
   "scripts": {
-    "pug_all": "node pug_all.js"
+    "pug_game": "pug templates/games/children -o docs/games -P -b ./ && node pug_generateIndex.js && pug templates/games/index.pug -o docs/games -O templates/games/pagesData.json -P -b ./"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "pages": [
+    {
+      "name": "test1",
+      "path": "test1.html"
+    },
+    {
+      "name": "test2",
+      "path": "test2.html"
+    }
+  ]
+}

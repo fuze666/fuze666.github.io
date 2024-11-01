@@ -1,0 +1,9 @@
+extends /templates/layout.pug 
+
+block prepend main 
+  #children_wrapper 
+    nav#children_pages
+      #children_pages_count このカテゴリのページ:
+      ul 
+        each page in pages 
+          li.child_page: a(href=page.path) #{page.name}
