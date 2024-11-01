@@ -1,0 +1,9 @@
+extends layout.pug 
+
+block append main 
+  #children_wrapper 
+    nav#children_pages
+      #children_pages_count このカテゴリのページ:#{children.length} 
+      ul 
+        each child in children 
+        li.child_page: a(href=`./games/${child.filename}.html`) #{child.title}

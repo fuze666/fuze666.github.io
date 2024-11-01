@@ -3,6 +3,6 @@
     "pug": "^3.0.3"
   },
   "scripts": {
-    "pug_all": "node pug_compile.js"
+    "pug_all": "node pug_all.js"
   }
 }
