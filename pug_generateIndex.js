@@ -10,7 +10,7 @@ function generateDataFile(inputFolder, outputFilePath) {
   const data = {
     pages: files.map(file => ({
       name: path.parse(file).name,
-      path: file
+      path: file 
     }))
   };
 

@@ -6,4 +6,4 @@ block prepend main
       #children_pages_count このカテゴリのページ:
       ul 
         each page in pages 
-          li.child_page: a(href=page.path) #{page.name}
+          li.child_page: a(href='games/'+page.path) #{page.name}
