@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "name": "ahoge_white_and_black",
-      "path": "ahoge_white_and_black.html"
-    },
-    {
       "name": "shiro_kuro",
       "path": "shiro_kuro.html"
     }
