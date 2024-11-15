@@ -3,7 +3,8 @@
     "pug": "^3.0.3"
   },
   "scripts": {
-    "pug_game": "pug templates/games/children -o docs/games -P -b ./ && node pug_generateIndex.js && pug templates/games/index.pug -o docs/games -O templates/games/pagesData.json -P -b ./",
-    "pug_game_watch": "pug templates/games/children -o docs/games -P -b ./ -w && node pug_generateIndex.js && pug templates/games/index.pug -o docs/games -O templates/games/pagesData.json -P -b ./ -w"
+    "pug_index":"pug templates/index.pug -o docs/ -P -b ./",
+    "pug_game": "pug templates/games/children -o docs/games -P -b ./ && node pug_generateIndex.js games && pug templates/games/index.pug -o docs/games -O templates/games/pagesData.json -P -b ./",
+    "pug_game_watch": "pug templates/games/children -o docs/games -P -b ./ -w && node pug_generateIndex.js games && pug templates/games/index.pug -o docs/games -O templates/games/pagesData.json -P -b ./ -w"
   }
 }
